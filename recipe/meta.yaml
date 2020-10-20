@@ -43,7 +43,7 @@ test:
 
 about:
   home: http://desolve.r-forge.r-project.org/
-  license: GPL-2
+  license: GPL-2.0-or-later
   summary: Functions that solve initial value problems of a system of first-order ordinary differential equations ('ODE'), of partial differential equations ('PDE'),
     of differential algebraic equations ('DAE'), and of delay differential equations.  The functions provide an interface to the FORTRAN functions 'lsoda', 'lsodar',
     'lsode', 'lsodes' of the 'ODEPACK' collection, to the FORTRAN functions 'dvode', 'zvode' and 'daspk' and a C-implementation of solvers of the 'Runge-Kutta' family

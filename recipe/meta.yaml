@@ -1,4 +1,4 @@
-{% set version = "1.38" %} 
+{% set version = "1.40" %} 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/deSolve_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/deSolve/deSolve_{{ version }}.tar.gz
-  sha256: a0b4fe5c46ae560a3f36eb31e474b08ed85a928e86ae52dd59457409de188969
+  sha256: 8c09ae6bb6875b569b9844eede30b790f39fc227f5c9d045fa63ce1b22f500ef
 
 build:
   merge_build_host: true  # [win]

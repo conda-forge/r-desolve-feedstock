@@ -1,4 +1,4 @@
-{% set version = "1.41" %} 
+{% set version = "1.42" %} 
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/deSolve_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/deSolve/deSolve_{{ version }}.tar.gz
-  sha256: d0dc713a8c77ee86445ddc201936398061737e240ebc1826ee062e8420c1c372
+  sha256: c15d4d3b17f7e6c9344728f7623c519495b6742d5236b9323d6b6250ce2c0f71
 
 build:
   number: 0

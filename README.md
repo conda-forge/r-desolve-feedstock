@@ -7,7 +7,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-desolve-feeds
 About r-desolve
 ---------------
 
-Home: http://desolve.r-forge.r-project.org/
+Home: https://github.com/tpetzoldt/deSolve/
 
 Package license: GPL-2.0-or-later
 
@@ -16,7 +16,7 @@ Summary: Functions that solve initial value problems of a system of first-order 
 About r-desolve
 ---------------
 
-Home: http://desolve.r-forge.r-project.org/
+Home: https://github.com/tpetzoldt/deSolve/
 
 Package license: GPL-2.0-or-later
 
